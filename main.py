@@ -5,8 +5,8 @@ from utils.topsisProgram import topsis
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Topsis-Jasween-102017187",)
-st.title('Topsis-Jasween')
+st.set_page_config(page_title="MCDM Web-App",)
+st.title('Multi-Criteria-Decision-Making Application')
 
 
 def check(input_file,weights,impacts,result_file,email):
