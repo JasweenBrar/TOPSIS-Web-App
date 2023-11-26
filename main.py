@@ -7,7 +7,9 @@ import numpy as np
 
 st.set_page_config(page_title="MCDM Web-App",)
 st.title('Multi-Criteria-Decision-Making Application')
-
+st.write("\n")
+st.markdown("Jasween Kaur Brar")
+st.write("\n")
 
 def check(input_file,weights,impacts,result_file,email):
     if weights == '' or impacts == '' or result_file == '' or input_file is None:
